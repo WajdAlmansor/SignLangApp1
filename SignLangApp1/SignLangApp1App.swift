@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SignLangApp1App: App {
+struct MPEG4App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FilePickerView()
         }
     }
 }

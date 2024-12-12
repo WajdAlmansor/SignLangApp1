@@ -10,9 +10,22 @@
 		B3E969CF2D09C0EB00CE693D /* SignLangApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignLangApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B3E969FD2D09C52F00CE693D /* Exceptions for "SignLangApp1" folder in "SignLangApp1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B3E969CE2D09C0EB00CE693D /* SignLangApp1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B3E969D12D09C0EB00CE693D /* SignLangApp1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3E969FD2D09C52F00CE693D /* Exceptions for "SignLangApp1" folder in "SignLangApp1" target */,
+			);
 			path = SignLangApp1;
 			sourceTree = "<group>";
 		};
@@ -252,8 +265,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignLangApp1/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need access to your documents folder to process the file";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for processing audio files.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "e need access to speech recognition for transcription.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignLangApp1/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need access to your documents folder to process the file";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for processing audio files.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "e need access to speech recognition for transcription.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
